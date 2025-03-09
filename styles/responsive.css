@@ -1,0 +1,125 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .footer__wrapper {
+    gap: 0;
+  }
+  .newsLetter__email__box {
+    max-width: 42rem;
+  }
+  .newsLetter__box::before {
+    left: -20rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .newsLetter__box {
+    padding: 4rem 3rem;
+    gap: 2.6rem;
+  }
+  .newsLetter__box::before {
+    left: -27rem;
+  }
+}
+@media (max-width: 991px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .left__medias {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .download__app_icons__mobile {
+    display: block;
+  }
+  .download__app_icons {
+    display: none;
+  }
+  .login_signup {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__wrapper_ul {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    background-color: #3b3735;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 0rem;
+    transition: all ease-in 200ms;
+    /* justify-content: center; */
+    align-items: baseline;
+overflow: hidden;
+  }
+  .open__mobile__nav{
+    width: 26rem;
+  }
+  .nav__wrapper_list {
+    padding-left: 2rem;
+    margin-top: 1.5rem;
+  }
+  .title__mobile__nav{
+  padding-top: 2rem;
+  
+  margin: 0 auto;
+  
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Archivo Black", Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid white;padding-bottom: 1rem;
+    text-align: center;
+  }
+  .nav__toggle-btn {
+    display: flex;
+  }
+  .nav__mobile {
+    display: block;
+  }
+  .newsLetter__box {
+    flex-direction: column-reverse;
+  }
+  .left_contents {
+    text-align: center;
+  }
+  .newsLetter__email__box {
+    margin: 0 auto;
+  }
+  .inforamtion__newsLetter {
+    margin-bottom: 2rem;
+  }
+  .newsLetter__box::before {
+    background: url("../images/svgs/shape31.svg") no-repeat;
+    bottom: 0;
+    width: 50rem;
+    height: 50rem;
+    background-size: contain;
+    top: 16rem;
+    left: -15rem;
+    transform: rotate(-9deg);
+  }
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 576px) {
+  .footer__wrapper {
+  }
+}
+@media (max-width: 380px) {
+  .newsLetter__box::before {
+    left: -28rem;
+  }
+  .header__title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 280px) {
+}
