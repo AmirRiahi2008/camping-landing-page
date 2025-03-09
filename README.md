@@ -22,7 +22,7 @@ The website is built using **HTML**, **CSS**, and **JavaScript**.
 ## Live Demo
 
 Check out the live version of the website here:  
-[Vercel](https://camping-landing-page-eight.vercel.app/)
+[Vercel](https://camping-landing-page-eight.vercel.app/)<br>
 [Netlify](https://camping-landing-page-website.netlify.app/)
 
 
